@@ -1,0 +1,48 @@
+ 
+Description English
+ 
+SIC Code
+ 
+Description Arabic
+Oil Exploration Engineering Services	K742142	خدمات هندسة التنقيب عن البترول
+Oil Refining Engineering Services	K742133	خدمات هندسة تكرير البترول
+Oil Related Services	C112010	جميع الخدمات التي تختص بالنفط
+Oil and Gas Fields Equipment Manufacturing	D281108	صناعة معدات حقول النفط والغاز الطبيعي
+Oil and Gas Tanks pipes construction engineering services	K742154	خدمات هندسة بناء أنابيب خزانات البترول والغاز
+Oil and Natural Gas Development	C111003	تطوير حقول النفط والغاز الطبيعي
+Oil and Natural Gas Exploration Consultancies	K742109	إستشارات البحث والتنقيب عن البترول والغاز الطبيعي
+Oiland Natural Gas Pipelines Contracting	F452014	مقاولات انشاء خطوط انابيب النفط والغاز الطبيع
+
+
+
+ 
+Description English
+ 
+SIC Code
+ 
+Description Arabic
+Oil and Natural Gas Well Drilling	C112001	حفر آبار النفط والغاز الطبيعي
+Oil and Natural Gas Well Equipment Repairing and Maintenance	C112004	اصلاح معدات آبارالنفط والغاز الطبيعي وصيانتها
+Oil and Natural Gas Well Maintenance	C112002	إصلاح آبار النفط والغاز الطبيعي وصيانتها
+Oil and Natural Gas Well Reinforcement Services	C112003	تدعيم آبار النفط والغاز الطبيعي
+Oilfield Chemicals Trading	G514920	تجارة كيماويات آبار النفط
+Oilfield Drilling Equipment and Components Manufacturing	D281116	صناعة أدوات حفر آبار النفط ولوازمها
+Oilfield High Pressure Equipment Testing	K742216	فحص معدات الضغط العالي الخاصة بحقول النفط
+Oilfield and Natural Gas Equipment and Spare Parts Trading	G515906	تجارة معدات وأجهزة آبارالنفط والغاز الطبيعي وقطع غيارها
+
+
+
+ 
+Description English
+ 
+SIC Code
+ 
+Description Arabic
+Oil and Natural Gas Well Equipment Repairing and Maintenance	C112004	اصلاح معدات آبارالنفط والغاز الطبيعي وصيانتها
+Oil and Natural Gas Well Maintenance	C112002	إصلاح آبار النفط والغاز الطبيعي وصيانتها
+Oil and Natural Gas Well Reinforcement Services	C112003	تدعيم آبار النفط والغاز الطبيعي
+Oilfield Chemicals Trading	G514920	تجارة كيماويات آبار النفط
+Oilfield Drilling Equipment and Components Manufacturing	D281116	صناعة أدوات حفر آبار النفط ولوازمها
+Oilfield High Pressure Equipment Testing	K742216	فحص معدات الضغط العالي الخاصة بحقول النفط
+Oilfield and Natural Gas Equipment and Spare Parts Trading	G515906	تجارة معدات وأجهزة آبارالنفط والغاز الطبيعي وقطع غيارها
+Oilfield Chemicals Manufacturing	D242904	صناعة كيماويات آبار النفط

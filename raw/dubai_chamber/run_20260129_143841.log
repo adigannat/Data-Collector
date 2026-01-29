@@ -1,0 +1,4 @@
+2026-01-29 18:38:42,283 [INFO] Processing code K742142
+2026-01-29 18:39:01,784 [WARNING] Initial page load timed out; continuing with whatever rendered for code K742142
+2026-01-29 18:39:10,133 [INFO] Code K742142 page 1: html_rows=7 dom_rows=7 grid_rows=7
+2026-01-29 18:39:10,352 [INFO] Saved 1 rows to D:\Data-Collector\raw\dubai_chamber\dubai_chamber_20260129_143841.csv
