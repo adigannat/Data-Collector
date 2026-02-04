@@ -1,0 +1,15 @@
+2026-01-30 11:46:44,642 [INFO] Searching keyword oil
+2026-01-30 11:46:49,732 [WARNING] Search input not found for keyword oil
+2026-01-30 11:46:49,738 [INFO] Searching keyword petroleum
+2026-01-30 11:46:53,995 [WARNING] Search input not found for keyword petroleum
+2026-01-30 11:46:53,995 [INFO] Searching keyword petro
+2026-01-30 11:46:58,091 [WARNING] Search input not found for keyword petro
+2026-01-30 11:46:58,091 [INFO] Searching keyword gas
+2026-01-30 11:47:02,432 [WARNING] Search input not found for keyword gas
+2026-01-30 11:47:02,432 [INFO] Searching keyword drilling
+2026-01-30 11:47:06,656 [WARNING] Search input not found for keyword drilling
+2026-01-30 11:47:06,656 [INFO] Searching keyword refinery
+2026-01-30 11:47:10,872 [WARNING] Search input not found for keyword refinery
+2026-01-30 11:47:10,872 [INFO] Searching keyword oilfield
+2026-01-30 11:47:15,190 [WARNING] Search input not found for keyword oilfield
+2026-01-30 11:47:15,369 [WARNING] No rows captured

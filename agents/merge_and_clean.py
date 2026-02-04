@@ -134,18 +134,35 @@ def main():
         cleaned.append(row)
 
     merged = {}
-    for row in cleaned:
+    seen_exact = set()
+    for idx, row in enumerate(cleaned):
         norm_name = normalize_company_name(row.get("company_name", ""))
         norm_email = row.get("email", "").lower().strip()
         norm_phone = normalize_phone(row.get("phone", ""))
-        emirate = (row.get("emirate") or "").strip().lower()
 
-        if norm_email:
+        # Exact duplicate guard: only remove rows that are identical across key fields.
+        exact_sig = (
+            norm_name,
+            norm_email,
+            norm_phone,
+            (row.get("business_activity") or "").strip().lower(),
+            (row.get("source") or "").strip().lower(),
+            (row.get("activity_code") or "").strip().lower(),
+            (row.get("source_url") or "").strip().lower(),
+            (row.get("emirate") or "").strip().lower(),
+        )
+        if exact_sig in seen_exact:
+            continue
+        seen_exact.add(exact_sig)
+
+        # Safer dedupe: only merge when company name AND (email OR phone) match.
+        if norm_name and norm_email:
             key = f"{norm_name}|{norm_email}"
-        elif norm_phone:
+        elif norm_name and norm_phone:
             key = f"{norm_name}|{norm_phone}"
         else:
-            key = f"{norm_name}|{emirate}"
+            # No strong identifiers, keep as unique row.
+            key = f"unique|{idx}"
 
         if key in merged:
             merged[key] = merge_rows(merged[key], row)

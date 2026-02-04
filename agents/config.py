@@ -14,7 +14,7 @@ DUBAI_CHAMBER_URL = (
     "https://dcdigitalservices.dubaichamber.com/siebel/app/pseservicesso/enu"
     "?SWECmd=GotoView&SWEBHWND=&SWEView=DC+Commercial+Directory+Landing+View"
 )
-DUBAI_DED_URL = "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx"
+DUBAI_DED_URL = "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx?dedqs=PM671p6QBb0lV1okx2JABgxoLLKXOgPx"
 SHARJAH_SEDD_URL = (
     "https://eservices.sedd.ae/eservicesweb/license-transactions/search_license/main-inq-lic.xhtml?lang=en"
 )
@@ -86,6 +86,8 @@ DUBAI_CHAMBER_SELECTORS = {
 SHARJAH_SEDD_SELECTORS = {
     "search_inputs": [
         "input[name*='filterTrdNameEn']",
+        "input[placeholder*='Trade Name (English)']",
+        "input[aria-label*='Trade Name (English)']",
         "input[type='text']",
     ],
     "search_buttons": [
@@ -93,7 +95,15 @@ SHARJAH_SEDD_SELECTORS = {
         "input[type='submit']",
     ],
     "results_tables": ["table"],
-    "next_buttons": ["a:has-text('Next')", "button:has-text('Next')"],
+    "next_buttons": [
+        "a.ui-paginator-next",
+        "button.ui-paginator-next",
+        "span.ui-paginator-next",
+        "a[aria-label*='Next']",
+        "button:has-text('Next')",
+        "a:has-text('Next')",
+        "a:has-text('>')",
+    ],
     "field_labels": {
         "company_name": ["Trade Name", "Company Name"],
         "business_activity": ["Activity", "Business"],
@@ -104,15 +114,27 @@ SHARJAH_SEDD_SELECTORS = {
 
 DUBAI_DED_SELECTORS = {
     "search_inputs": [
+        "input[id*='Activity']",
+        "input[name*='Activity']",
         "input[type='text']",
         "input[name*='search']",
+        "input[placeholder*='Activity']",
+        "input[placeholder*='Business']",
+        "input[aria-label*='Activity']",
+        "input[aria-label*='Business']",
     ],
     "search_buttons": [
         "button:has-text('Search')",
+        "input[type='submit'][value*='Search']",
         "input[type='submit']",
+        "button:has-text('Find')",
     ],
     "results_tables": ["table"],
-    "next_buttons": ["a:has-text('Next')", "button:has-text('Next')"],
+    "next_buttons": [
+        ".paging-arrows a.next",
+        "a:has-text('Next')",
+        "button:has-text('Next')",
+    ],
     "field_labels": {
         "company_name": ["Company", "Trade Name", "Commercial Name"],
         "business_activity": ["Activity", "Business", "License Activity"],

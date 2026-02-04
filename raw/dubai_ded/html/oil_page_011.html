@@ -1,0 +1,629 @@
+<!DOCTYPE html><html xmlns="https://www.w3.org/1999/xhtml" class=""><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <title>Search Business Activities</title>
+
+
+
+
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="../../ui/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/ltr.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout_dashboard.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/dashboard_ltr.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/FontAwesome/css/font-awesome.min.css">
+    <!-- scripts -->
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-DSJE2DF5JJ&amp;cx=c&amp;_slc=1"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/N67nZn4AqZkNcbeMu4prBgzg/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-8HATTPUsU/SjrV9KR44/tgBG8Czia5FPTCnvn3iAGBsMsUqgy9L0h45QhvFE9aql"></script><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/N67nZn4AqZkNcbeMu4prBgzg/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-8HATTPUsU/SjrV9KR44/tgBG8Czia5FPTCnvn3iAGBsMsUqgy9L0h45QhvFE9aql"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../../ui/js/common.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript">
+        /* function to show the validation */
+        function show(HasErrorOccured) {
+            if (HasErrorOccured == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+    </script> 
+    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="../../ClientScript/NewWindow.js "></script>
+    <script src="../../ClientScript/appinsights.js"></script>
+
+<title>
+	
+        DED - Search Activity
+</title>
+    <style type="text/css">
+			.divInspRep { PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px; HEIGHT: 500px }
+			.Validation { DISPLAY: none }
+			
+				.SectionFieldset,.SectionFieldset LEGEND { FONT-WEIGHT: bold; TEXT-TRANSFORM: capitalize; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center }				
+						
+		</style>
+    <script type="text/javascript">
+
+        function fnValidate() {
+            var eControl;
+            var aControl;
+
+            this.Init = function getControl() {
+                if (document.getElementById) {
+                    eControl = document.getElementById("DEDTBActivitDescr_E");
+                    aControl = document.getElementById("DEDActvityDescr_A");
+                    return true;
+                }
+                else if (document.all) {
+                    eControl = document.all['DEDTBActivitDescr_E'];
+                    aControl = document.all['DEDActvityDescr_A'];
+                    return true;
+                }
+                else if (document.layers) {
+                    eControl = document.layers['DEDTBActivitDescr_E'];
+                    aControl = document.layers['DEDActvityDescr_A'];
+                    return true;
+                }
+                else {
+                    return false;
+                }
+
+            }
+
+            this.Validate = function FormValidation() {
+
+                if (eControl) {
+                    if (eControl.value != '' && eControl.value.replace(/\s+$/, "").replace(/^\s+/, "").length >= 3)
+                        return true;
+                    else
+                        return false;
+                }
+                else if (aControl) {
+                    if (aControl.value != '' && aControl.value.replace(/\s+$/, "").replace(/^\s+/, "").length >= 3)
+                        return true;
+                    else
+                        return false;
+                }
+            }
+
+        }
+
+        function RequiredField(source, arguments) {
+            if (frm.Validate())
+                arguments.IsValid = true;
+            else {
+                show(true);
+                arguments.IsValid = false;
+            }
+        }
+
+        function show(HasErrorOccured) {
+            if (HasErrorOccured == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+					
+		var ActivitDescr_A = "ActivitDescr_A";
+        var ActivitDescr_E = "ActivitDescr_E";		
+    </script>   
+    <script type="text/javascript">
+        function STB(ActivityCode) {
+            
+            NewWindow2('ActvSrchPopup.aspx?actv_CD=' + ActivityCode + '&srp=-1&sfn=-1&ifn=-1&pn=173956&pn2=-1' ,'DEDWINActvSrchPopup', '400', '300', 'yes');
+        }
+    </script>
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"true","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-3625a564-0003-46fc-87d4-6d68c8768eb8","rua.cook":"true","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="XFTDD-5LVBC-U48D7-D3YPM-YNSWH",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"XFTDD-5LVBC-U48D7-D3YPM-YNSWH";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="cookiepresent",a="eaaqr6a3hem4cjqacqlqabiaabuxyzm5-f-da1360fe0-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"1430184","ak.ai":parseInt("877808",10),"ak.ol":"0","ak.cr":6,"ak.ipv":6,"ak.proto":"h2","ak.rid":"304e47c6","ak.r":32369,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"2001:8f8:1b39:19c1::","ak.cport":53367,"ak.gh":"2.20.249.72","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1769760157","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==UBHikf8TS0Cak/Q+LzHNe5TdsSqm2XFbhfwPk1b8uBJcGVOjwlU5A33ZR7qN+8qCJXrxdIzw/CMGXXTu4++5X+YhiSJoPtmcsEocUs6sKqiriRFE9sLMfjvCceS0VuOisZ9z7XabQG0R/hZySPWbzHVEcNQjLjcnOgZbNRQ8b2TwyCfuK6SFW3G6ujHd3YOg3ChxsTABF5uHMT91m3RLbpPODrXVcBmHk7MSodnGvXVvrW+OF3ZHkanWttKqnk/3YCOEwzL2wlgces+5v/jiRFZSfnZrTCiQaq6VBIWPABqjgEfU8o2/guZLX+DWfiO9d21W6NtpOCnEzyXGF2CComuUYRhbixu9fMfh3MsCsGf7oFiudsaiQk4jYEbiFQGwKqp5U1HmHeEqOPYrCoeqeBDVY8mi3Y7+VUItnvleyLo=","ak.pv":"13","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><link href="https://s.go-mpulse.net/boomerang/XFTDD-5LVBC-U48D7-D3YPM-YNSWH" rel="preload" as="script"><script src="https://js.monitor.azure.com/scripts/b/ai.2.min.js" crossorigin="anonymous"></script><script id="boomr-scr-as" src="https://s.go-mpulse.net/boomerang/XFTDD-5LVBC-U48D7-D3YPM-YNSWH" async=""></script><meta http-equiv="origin-trial" content="A2uWz2bbyoykT6h7LZQlNUdwVAFfb3IL5LU+YR1qxtW5T1dCRKjJ5/h3zur1LmuLWk0B1kyAAwyCxJzDCzNxUAQAAAB6eyJvcmlnaW4iOiJodHRwczovL2FrYW1haS5jb206NDQzIiwiZmVhdHVyZSI6IkJhY2tGb3J3YXJkQ2FjaGVOb3RSZXN0b3JlZFJlYXNvbnMiLCJleHBpcnkiOjE2OTE1MzkxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+<body>
+    <form method="post" action="/Pages/Anon/ActvSrch.aspx?dedqs=fjWtzpxXhyHnpVhmdCXNuTAVOV2BQgXAKNbJLsz6gWbeXjyuvcfcrJQJnIccVa83z5ZtXz6KUWPmG3hoYok4gg5S7bMMz9lrFza32v1fPEs+mI0ENef7cZQFLr4ZWcpX4HIQegkY8jEkE8i4o+2/dw==" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNvmK2Ww3CuNFEamSnsFB09ZsUG2OCp3XXdG6Ysik2MX7nsi_w2&amp;t=638901680248157332" type="text/javascript"></script>
+
+
+<script language="javascript" src="../../ClientScript/common.js"></script>
+<link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet"><script language="javascript" src="../../ClientScript/NumberValidation.js"></script><script language="JavaScript"><!--
+function textCounter(field,maxlimit) { if (field.value.length > maxlimit) field.value=field.value.substring(0, maxlimit); try{textCounterOnPg();}catch(e){}; }
+function NumValidate(me) {if (!validvalue(me,'1234567890.',0)){ if(!validvalueText( me.value.substring(me.value.length-1,me.value.length),'1234567890.',0)) me.value=me.value.substring(0,me.value.length-1);}}
+function ResetNum(me) {if (!validvalue(me,'1234567890.',0)) me.value=''; }
+//--></script>
+<script type="text/javascript">var safePage = 0;var refererName;if (!window.opener && !document.referrer) {safePage = 0;} else if (document.referrer){ refererName = document.referrer.split('/')[2];if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } else if (window.opener){ refererName = window.opener.location.hostname;if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } if (safePage == 0) {window.location.replace('/Security/security.html?r=sec-qss');} </script>          <script type="text/javascript">      if (self === top) {          var antiClickjack = document.getElementById("antiClickjack");          antiClickjack.parentNode.removeChild(antiClickjack);      } else {          top.location = self.location;      }   </script> <link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet">
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakB1YgDElPeucUa4qIhUW4-ovfc9gHjOlRj1c98BYE0gFsRHJRIqA6Oxep1v-U9j8bPxubko1&amp;t=638901680248157332" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3B2BED90">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="1cv4+Krx3k9ruChI/em53jiGIxkMkj28gb/CeI/7ZjCCpwRr2enrw+OrWg28guWmfVDedifWfDkAc5G+L5m1f5TOf6cqzvXJBJ6QMNBJmjutkjQNkR8kwLsP/LMTJdBNpeeykOsekKcnmcVdeiGGzTHnVcJ43Yux8s8uaw2jXWZL8+3gjWTw2QjDiVfaPOIsQYDHpgfGn30JQX4boVGHL+CbIUDYCKtgn7XVyDOtuR914p4J">
+</div>
+    
+
+<div class="g-recaptcha" id="g-recaptcha-main" data-sitekey="6LdiZVwUAAAAAEXyDKVqEaanCrkADvfbTcloegLA" data-size="invisible" data-callback="onCaptchaValidated"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-7j48kr6odelw" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdiZVwUAAAAAEXyDKVqEaanCrkADvfbTcloegLA&amp;co=aHR0cHM6Ly9lc2VydmljZXMuZHViYWlkZWQuZ292LmFlOjQ0Mw..&amp;hl=en&amp;v=N67nZn4AqZkNcbeMu4prBgzg&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=wm1lh2vpx7zt"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response input_text" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+<input type="hidden" name="hfButtonRecaptchaID" id="hfButtonRecaptchaID" value="">
+
+<script>
+
+    var btnRecaptcha, btnRecaptchaID;
+
+    function onCaptchaValidated(response) {
+        //TODO: use for test!
+        //$('#g-recaptcha-response').val($('#g-recaptcha-response').val() + 'tampered!');
+
+        //TODO: check not undefined!
+        btnRecaptcha.removeAttr('disabled');
+        btnRecaptcha.click();
+        setTimeout(() => { btnRecaptcha.prop("disabled", true); }, 200);
+        
+        setTimeout(() => { resetCaptchaButton() }, 10000);
+    }
+
+    window.onCaptchaValidated = onCaptchaValidated;
+
+
+    function resetCaptchaButton() {
+
+ 	    if (!$("input.btn-recaptcha").is(":disabled"))
+ 		    return;
+
+ 	    $("input.btn-recaptcha").removeAttr('disabled');
+ 	    $("input.btn-recaptcha").removeAttr('style');
+ 	    $(".fa-spinner").remove();
+
+ 	    //In case of the user has stopped postback, there may be a duplicate captcha! so reset it in form update!
+ 	    grecaptcha.reset();
+     }
+
+    $(document).ready(function () {
+
+        $(document).on('change', 'form :input', function (e) {
+           resetCaptchaButton();
+        });
+
+        //Use 'on' to attach the event handler also in UpdatePanel
+        $(document).on('click', 'input.btn-recaptcha', function (e) {
+            btnRecaptchaID = this.id;
+            $('#hfButtonRecaptchaID').val(this.id);
+            btnRecaptcha = $('#' + btnRecaptchaID);
+
+            //in UpdatePanel $('#g-recaptcha-response').val(); null BUT grecaptcha.getResponse(); not null
+            var captchaResponse = grecaptcha.getResponse();
+
+            //TOOD: check also in callback
+            if ((typeof Page_IsValid == 'undefined' || Page_IsValid) && (typeof captchaResponse == 'undefined' || captchaResponse == '')) {
+                e.preventDefault();
+                $(this).prop("disabled", true);
+                //Use #000 instead off #fff to make buttons inside Guest login looks good!
+                $(this).attr("style", "transition: all 0.5s ease; background-blend-mode: luminosity; background-color: #000");
+
+                //Show only spinner loader for DEDButtons with class btn-3! as it's not displayed well in login buttons in Guest tab!
+                //Guest tab is inisde an UpdatePanel and it has a spinner already so remove it!
+                if ($(this).hasClass('btn-3')) {
+                $(this).parent().prepend("<i class='fa fa-spinner fa-spin' style='transition: all 0.5s ease;font-size: 14px;margin: 8px;position: absolute;'></i>");
+                }
+
+                grecaptcha.execute();
+            }
+        });
+    });
+
+
+    //Required in Printing report page! to stop if button is clicked and page is already posted! to post only one time
+    function IsPostBack() {
+        var ret = 'True' == 'True';
+        return ret;
+    }
+
+    //Used to fire not interactive actions like printing reports!
+    function executeGREcaptchaV2() {
+        $(document).ready(function () {
+            grecaptcha.ready(function () {
+                if (!IsPostBack()) {
+                    $('input.btn-recaptcha').click();
+                }
+            });
+        });
+    }
+
+
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script type="text/javascript">
+
+    //Should execute the below code only if the page has an UpdatePanel
+    if (typeof (Sys) !== 'undefined') {
+
+        //On UpdatePanel Refresh
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        if (prm != null) {
+
+
+            prm.add_endRequest(function (sender, e) {
+                if (sender._postBackSettings.panelsToUpdate != null) {
+                    grecaptcha.ready(function () { grecaptcha.render('g-recaptcha-main', { 'callback': onCaptchaValidated}); });
+                }
+            });
+        };
+    }
+
+</script>
+
+    <!-- Header and left menu -->
+    
+<!-- pgLTWizTOP start -->
+
+    <script type="text/javascript">
+        $(window).on('load', function () { $("#formspinner").fadeOut("slow"); });      
+    </script>
+    <div id="formspinner" style="display: none;"></div>
+
+<script type="text/javascript">
+
+
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+        try {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+        catch (e2) {
+        }
+    }
+
+
+
+
+</script>
+<div class="hidden">
+    <input id="IsDirty" type="hidden" name="IsDirty">
+</div>
+<div class="wrapper">
+    <div class="wrapper-cont">
+        <div class="header">
+            <div style="display: none;">
+                <div class="upperBar">
+                    <div>
+                        Welcome guest.</div>
+                    <div class="lang">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="logos">
+                 <img src="../../ui/images/logo_dubai.png" class="dubai-logo" alt="Dubai gov logo">
+                 <img src="../../ui/images/logo_ded.png" class="economy-logo" alt="DET logo">
+            </div>
+            <div>
+                <a href="../../Pages/Anon/GstHme.aspx?dedqs=miVVgMLthyo=" class="home-btn">
+                    <div class="home-img">
+                        <img src="../../ui/images/web-page-home.png">
+                    </div>
+                </a>
+                <div class="profileBar">
+                    <div class="LeftText" style="display: none">
+                        Search Business Activities
+                    </div>
+                    <div class="Profile">
+                        <div class="login-btn">
+                            
+                            <div id="PgLtWizTopForUserMenu1_DivLoginButton" class="login-popup-btn">
+                                <a href="#" data-modal-id="popup1" class="js-open-modal" style="text-decoration: none;">
+                                    <label>
+                                        <strong>
+                                            Login</strong>&nbsp; <i class="fa fa-user-o fa-2 float-right">
+                                        </i>&nbsp;</label></a>
+                            </div>
+                            <a class="lang_text" href="/Pages/Anon/ActvSrch.aspx?1=1&amp;PID=10104&amp;sname=Search_Business_Activities&amp;srp=-1&amp;sfn=-1&amp;ifn=-1&amp;pn=173956&amp;pn2=-1&amp;wasQSEncrypted=N&amp;LID=2">
+                                <div class="lang-btn">
+                                    <label>
+                                        العربي</label>
+                                </div>
+                            </a>
+                            <div class="profile-status">
+                                
+                            </div>
+                        </div>
+                        <div style="display: none;">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help-icon">
+                <a href="../../Help/Online_Help_E/DED_E-Services.htm" class="help-icon-link" target="_blank"></a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function MM_showHideLayers() { //v9.0
+                var i, p, v, obj, args = MM_showHideLayers.arguments;
+                for (i = 0; i < (args.length - 2); i += 3)
+                    with (document) if (getElementById && ((obj = getElementById(args[i])) != null)) {
+                        v = args[i + 2];
+                        if (obj.style) { obj = obj.style; v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v; }
+                        obj.visibility = v;
+                    }
+            }
+        </script>
+        
+        <div class="content">
+            <!-- delete html generated below-->
+
+    <div class="ActiveSrch">
+        <!-- Header and left menu -->
+        <div class="no-panel">
+            <div id="divEMsg" class="Validation MsgValiddation CaptchaFix">
+                <table width="100%" border="0"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td><fieldset class="ErrorFieldset"><legend>Error Messages</legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td>
+                
+                <div id="vsError" class="ErrorValidation ActivVaildFix" style="width:100%;display:none;">
+
+</div>
+                </td></tr></tbody></table> </fieldset></td></tr></tbody></table>
+            </div>
+        </div>
+
+
+        <!-- Opening FSTPrsnRep  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Criteria</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <table border="0" cellpadding="10" width="100%">
+            <tbody><tr>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" class="ded-control-input"><tbody><tr><td class="ded-td-input-label"><label for="DEDTBActivitDescr_E" class="boldText">Activity </label></td><td class="ded-td-input-text"><input name="DEDTBActivitDescr_E" type="text" value="oil" maxlength="100" id="DEDTBActivitDescr_E" tabindex="2" class="ded-input-text input_text" onchange="document.getElementById('IsDirty').value='true';" style="width:300px;margin:-1px;"></td><td class="ded-td-input-validation"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="visibility:hidden;display:none;color:red" id="lblSplCharDEDTBActivitDescr_E" nowrap="">One or more character(s) you are trying to enter is not allowed.</td></tr></tbody></table>
+                </td>
+            </tr>            
+            <tr>
+                <td>
+                    <div class="footer-btns footer-btns-inside">
+                        <div class="left">
+                            <table class="btn-3 btn-recaptcha" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img width="1px" height="1px" src="../../images/btn_tl.gif"></td><td background="../../images/btn_t.gif"></td><td><img src="../../images/btn_tr.gif" width="1" height="1" alt=""></td></tr><tr><td background="../../images/btn_ml.gif"><img src="../../images/btn_ml.gif" width="1" height="12" alt=""></td><td align="center"><input type="submit" name="DEDBtnSrch" value="Search" onclick="show(false);show(false);show(false);show(false);show(false);show(false);show(false);show(false);show(false);show(false);show(false);show(false);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;DEDBtnSrch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="DEDBtnSrch" tabindex="4" class="btn-3 btn-recaptcha"></td><td background="../../images/btn_mr.gif"><img width="1px" height="12px" src="../../images/btn_mr.gif" alt=""></td></tr><tr><td><img src="../../images/btn_bl.gif" width="1" height="1" alt=""></td><td background="../../images/btn_bm.gif"></td><td><img src="../../images/btn_br.gif" width="1" height="1" alt=""></td></tr></tbody></table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody></table>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep  -->
+       
+        
+        <div class="Validation" align="right">
+            <input name="txtValidation" type="text" value="Make Validation" id="txtValidation" class="input_text"><span id="cvRequiredValidation" style="display:none;">Please enter at least 3 letters/numbers related to the activity you are searching for</span>
+            
+        </div>
+       
+        
+        <!-- Opening FSTPrsnRep2  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Results</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <hr id="hrActivities" class="hidden" width="100%">
+        <div class="clear-10">
+        </div>
+        
+        <div class="grid">
+            <table cellspacing="0" id="dgActivities" style="width:98%;border-collapse:collapse;">
+	<tbody><tr class="DataGridTableTh">
+		<th scope="col" style="font-weight:bold;">Activity Code</th><th scope="col" style="font-weight:bold;">Activity </th><th scope="col" style="font-weight:bold;">Activity Group</th><th scope="col" style="font-weight:bold;">License Type</th>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=749954&amp;uuid-hash=y6qiQtvnYQDzQP7jyCEmA" href="javascript:;">8211017</a>
+                        </td><td>Public Toilets Operation &amp; Management</td><td>Facility management</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=749954&amp;uuid-hash=y6qiQtvnYQDzQP7jyCEmA" href="javascript:;">8211017</a>
+                        </td><td>Public Toilets Operation &amp; Management</td><td>CDA activities</td><td>Professional</td>
+	</tr>
+</tbody></table>
+            <div class="pagination">
+                <div class="paging-numbers">Page<span class="current"> 5</span>  of  <span class="total">5</span></div><div class="paging-arrows"><a disabled="disabled" class="last" href="javascript:__doPostBack('ctl13','')">Last</a><a disabled="disabled" class="next" href="javascript:__doPostBack('ctl12','')">Next</a><a class="prev" href="javascript:__doPostBack('ctl11','')">Previous</a><a class="first" href="javascript:__doPostBack('ctl10','')">First</a></div> </div> 
+            </div>
+        
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function () {
+                $("a[rel^='prettyPhoto']").each(function (index) {
+                    $(this).prettyPhoto({ theme: 'facebook' });
+                });
+            });
+        </script>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep2  -->
+        <div class="divInspRep hidden">
+            <iframe id="IFDivInspRep" bottommargin="0" marginwidth="0" frameborder="no" width="50%" scrolling="no" height="100%" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0"></iframe>
+        </div>
+        <!-- Footer -->
+    </div>
+    
+<!-- Delete any html generated above -->
+
+<!-- Google analytics-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1205005-20', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Scripts -->
+<script type="text/javascript">
+
+    //Hide status bar msg II script- by javascriptkit.com
+    //Visit JavaScript Kit (http://javascriptkit.com) for script
+    //Credit must stay intact for use
+
+    function hidestatus() {
+        window.status = '';
+        return true
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT)
+    }
+    document.onmouseover = hidestatus;
+    document.onmouseout = hidestatus;
+</script>
+<script lang="JavaScript">
+    try {
+        MM_showHideLayers('ins', '', 'hide');
+    }
+    catch (e) {
+    }
+</script>
+<div class="clear">
+</div>
+</div> </div> </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.css?v=2.1.5" media="screen">
+<script type="text/javascript">
+
+    // get the page name
+    var pageName = (function () {
+        var a = window.location.href,
+        b = a.lastIndexOf("/");
+        return a.substr(b + 1);
+    } ());
+
+    function autoClick() {
+        if (pageName == 'TransactionIndex.aspx') {
+            document.getElementById('onload').click();
+        }
+    }
+
+</script>
+<style type="text/css">
+    .fancybox-custom .fancybox-skin
+    {
+        box-shadow: 0 0 50px #222;
+    }
+    body
+    {
+        /*max-width: 700px;*/
+        margin: 0 auto;
+    }
+    
+    #foo
+    {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        bottom: 0px;
+        left: 15px;
+        background-color: #2EA07E;
+        padding: 10px;
+    }
+</style>
+ 
+    <!-- Footer -->
+    <script type="text/javascript">
+        var frm = new fnValidate();
+        frm.Init();
+    </script>
+    <input type="hidden" value="0" name="Flag">
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("vsError"));
+var Page_Validators =  new Array(document.getElementById("cvRequiredValidation"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var vsError = document.all ? document.all["vsError"] : document.getElementById("vsError");
+vsError.headertext = " ";
+vsError.displaymode = "List";
+var cvRequiredValidation = document.all ? document.all["cvRequiredValidation"] : document.getElementById("cvRequiredValidation");
+cvRequiredValidation.controltovalidate = "txtValidation";
+cvRequiredValidation.errormessage = "Please enter at least 3 letters/numbers related to the activity you are searching for";
+cvRequiredValidation.display = "Dynamic";
+cvRequiredValidation.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvRequiredValidation.clientvalidationfunction = "RequiredField";
+//]]>
+</script>
+
+<script language="JavaScript"> ;var CrystalReportPage='../../Pages/common/DeliverPDF.aspx?n=ie&L=_E&PSU=173956';  ;var CrystalReportPageInternal='../../Pages/common/DeliverPDF.aspx?n=ie&L=_E&PSU=173956'; </script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+//]]>
+</script>
+</form>
+    
+
+
+
+<div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div><div style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: fixed; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255);"><iframe title="recaptcha challenge expires in two minutes" name="c-7j48kr6odelw" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=N67nZn4AqZkNcbeMu4prBgzg&amp;k=6LdiZVwUAAAAAEXyDKVqEaanCrkADvfbTcloegLA&amp;bft=0dAFcWeA5o2qCfauhw46qw4dab3cqOGBRTYawSQI9Ou54h3eGskmEoBQhr4KbMF4rDFDjDyXQiEQELzv_S-y4lksY6eEGFCEshMQ" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

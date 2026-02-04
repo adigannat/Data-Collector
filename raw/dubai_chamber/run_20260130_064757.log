@@ -1,0 +1,204 @@
+2026-01-30 10:48:06,405 [INFO] Processing code K742142
+2026-01-30 10:49:13,233 [WARNING] Initial page load timed out; continuing with whatever rendered for code K742142
+2026-01-30 10:49:21,549 [INFO] Code K742142 page 1: html_rows=7 dom_rows=7 grid_rows=7
+2026-01-30 10:49:21,562 [INFO] Processing code K742133
+2026-01-30 10:49:38,062 [INFO] Code K742133 page 1: html_rows=4 dom_rows=4 grid_rows=4
+2026-01-30 10:49:38,072 [INFO] Processing code C112010
+2026-01-30 10:49:55,286 [INFO] Code C112010 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:03,439 [INFO] Code C112010 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:03,439 [INFO] Page content repeated for code C112010; stopping pagination.
+2026-01-30 10:50:03,455 [INFO] Processing code D281108
+2026-01-30 10:50:13,883 [INFO] Code D281108 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:21,986 [INFO] Code D281108 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:30,049 [INFO] Code D281108 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:38,083 [INFO] Code D281108 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:46,129 [INFO] Code D281108 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:50:54,154 [INFO] Code D281108 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:02,203 [INFO] Code D281108 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:10,240 [INFO] Code D281108 page 8: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:18,292 [INFO] Code D281108 page 9: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:26,347 [INFO] Code D281108 page 10: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:34,391 [INFO] Code D281108 page 11: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:42,424 [INFO] Code D281108 page 12: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:51:42,434 [INFO] Processing code K742154
+2026-01-30 10:51:52,810 [INFO] Code K742154 page 1: html_rows=3 dom_rows=3 grid_rows=3
+2026-01-30 10:51:52,820 [INFO] Processing code C111003
+2026-01-30 10:52:03,450 [INFO] Code C111003 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:52:11,565 [INFO] Code C111003 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:52:19,699 [INFO] Code C111003 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:52:19,709 [INFO] Processing code K742109
+2026-01-30 10:52:30,309 [INFO] Code K742109 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:52:38,420 [INFO] Code K742109 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:52:46,458 [INFO] Code K742109 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:52:54,489 [INFO] Code K742109 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:02,539 [INFO] Code K742109 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:10,555 [INFO] Code K742109 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:18,677 [INFO] Code K742109 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:26,719 [INFO] Code K742109 page 8: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:26,719 [INFO] Processing code F452014
+2026-01-30 10:53:37,530 [INFO] Code F452014 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:45,650 [INFO] Code F452014 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:53:53,777 [INFO] Code F452014 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:01,790 [INFO] Code F452014 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:09,919 [INFO] Code F452014 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:17,944 [INFO] Code F452014 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:25,963 [INFO] Code F452014 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:33,980 [INFO] Code F452014 page 8: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:42,025 [INFO] Code F452014 page 9: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:50,156 [INFO] Code F452014 page 10: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:54:58,189 [INFO] Code F452014 page 11: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:06,229 [INFO] Code F452014 page 12: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:14,248 [INFO] Code F452014 page 13: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:14,260 [INFO] Processing code C112001
+2026-01-30 10:55:24,997 [INFO] Code C112001 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:33,095 [INFO] Code C112001 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:41,231 [INFO] Code C112001 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:49,262 [INFO] Code C112001 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:55:57,298 [INFO] Code C112001 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:05,363 [INFO] Code C112001 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:05,374 [INFO] Processing code C112004
+2026-01-30 10:56:16,422 [INFO] Code C112004 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:24,519 [INFO] Code C112004 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:32,549 [INFO] Code C112004 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:40,565 [INFO] Code C112004 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:48,699 [INFO] Code C112004 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:56:56,718 [INFO] Code C112004 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:04,748 [INFO] Code C112004 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:12,777 [INFO] Code C112004 page 8: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:20,920 [INFO] Code C112004 page 9: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:28,939 [INFO] Code C112004 page 10: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:36,957 [INFO] Code C112004 page 11: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:44,973 [INFO] Code C112004 page 12: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:57:44,984 [INFO] Processing code C112002
+2026-01-30 10:57:55,709 [INFO] Code C112002 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:03,800 [INFO] Code C112002 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:11,837 [INFO] Code C112002 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:19,857 [INFO] Code C112002 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:27,883 [INFO] Code C112002 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:36,055 [INFO] Code C112002 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:44,093 [INFO] Code C112002 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:58:44,103 [INFO] Processing code C112003
+2026-01-30 10:58:54,774 [INFO] Code C112003 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:02,872 [INFO] Code C112003 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:10,896 [INFO] Code C112003 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:19,025 [INFO] Code C112003 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:27,052 [INFO] Code C112003 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:35,081 [INFO] Code C112003 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:35,091 [INFO] Processing code G514920
+2026-01-30 10:59:46,112 [INFO] Code G514920 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 10:59:54,219 [INFO] Code G514920 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:02,249 [INFO] Code G514920 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:10,287 [INFO] Code G514920 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:18,297 [INFO] Code G514920 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:26,320 [INFO] Code G514920 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:34,341 [INFO] Code G514920 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:42,357 [INFO] Code G514920 page 8: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:50,403 [INFO] Code G514920 page 9: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:00:58,456 [INFO] Code G514920 page 10: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:06,481 [INFO] Code G514920 page 11: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:14,512 [INFO] Code G514920 page 12: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:22,535 [INFO] Code G514920 page 13: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:30,566 [INFO] Code G514920 page 14: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:38,574 [INFO] Code G514920 page 15: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:46,609 [INFO] Code G514920 page 16: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:01:54,637 [INFO] Code G514920 page 17: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:02,667 [INFO] Code G514920 page 18: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:10,710 [INFO] Code G514920 page 19: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:18,735 [INFO] Code G514920 page 20: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:26,759 [INFO] Code G514920 page 21: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:34,785 [INFO] Code G514920 page 22: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:42,807 [INFO] Code G514920 page 23: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:50,837 [INFO] Code G514920 page 24: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:02:58,858 [INFO] Code G514920 page 25: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:06,860 [INFO] Code G514920 page 26: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:14,919 [INFO] Code G514920 page 27: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:22,947 [INFO] Code G514920 page 28: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:30,974 [INFO] Code G514920 page 29: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:39,009 [INFO] Code G514920 page 30: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:47,038 [INFO] Code G514920 page 31: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:03:55,065 [INFO] Code G514920 page 32: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:03,086 [INFO] Code G514920 page 33: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:11,105 [INFO] Code G514920 page 34: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:19,130 [INFO] Code G514920 page 35: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:27,163 [INFO] Code G514920 page 36: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:35,199 [INFO] Code G514920 page 37: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:43,212 [INFO] Code G514920 page 38: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:51,231 [INFO] Code G514920 page 39: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:04:59,268 [INFO] Code G514920 page 40: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:07,276 [INFO] Code G514920 page 41: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:15,291 [INFO] Code G514920 page 42: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:23,309 [INFO] Code G514920 page 43: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:31,322 [INFO] Code G514920 page 44: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:39,369 [INFO] Code G514920 page 45: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:47,395 [INFO] Code G514920 page 46: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:05:55,413 [INFO] Code G514920 page 47: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:03,431 [INFO] Code G514920 page 48: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:11,465 [INFO] Code G514920 page 49: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:19,489 [INFO] Code G514920 page 50: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:27,509 [INFO] Code G514920 page 51: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:27,509 [INFO] Page content repeated for code G514920; stopping pagination.
+2026-01-30 11:06:27,509 [INFO] Processing code D281116
+2026-01-30 11:06:39,478 [INFO] Code D281116 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:47,613 [INFO] Code D281116 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:55,650 [INFO] Code D281116 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:06:55,662 [INFO] Processing code K742216
+2026-01-30 11:07:06,210 [INFO] Code K742216 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:07:14,301 [INFO] Code K742216 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:07:14,311 [INFO] Processing code G515906
+2026-01-30 11:07:27,525 [INFO] Code G515906 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:07:35,620 [INFO] Code G515906 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:07:43,665 [INFO] Code G515906 page 3: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:07:51,812 [INFO] Code G515906 page 4: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:07:59,836 [INFO] Code G515906 page 5: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:07,876 [INFO] Code G515906 page 6: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:15,900 [INFO] Code G515906 page 7: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:24,027 [INFO] Code G515906 page 8: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:32,048 [INFO] Code G515906 page 9: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:40,056 [INFO] Code G515906 page 10: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:48,080 [INFO] Code G515906 page 11: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:08:56,216 [INFO] Code G515906 page 12: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:04,263 [INFO] Code G515906 page 13: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:12,277 [INFO] Code G515906 page 14: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:20,329 [INFO] Code G515906 page 15: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:28,476 [INFO] Code G515906 page 16: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:36,504 [INFO] Code G515906 page 17: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:44,545 [INFO] Code G515906 page 18: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:09:52,560 [INFO] Code G515906 page 19: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:00,689 [INFO] Code G515906 page 20: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:08,720 [INFO] Code G515906 page 21: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:16,748 [INFO] Code G515906 page 22: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:24,798 [INFO] Code G515906 page 23: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:32,931 [INFO] Code G515906 page 24: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:40,951 [INFO] Code G515906 page 25: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:48,968 [INFO] Code G515906 page 26: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:10:56,991 [INFO] Code G515906 page 27: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:05,016 [INFO] Code G515906 page 28: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:13,080 [INFO] Code G515906 page 29: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:21,106 [INFO] Code G515906 page 30: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:29,118 [INFO] Code G515906 page 31: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:37,154 [INFO] Code G515906 page 32: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:45,190 [INFO] Code G515906 page 33: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:11:53,207 [INFO] Code G515906 page 34: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:01,237 [INFO] Code G515906 page 35: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:09,258 [INFO] Code G515906 page 36: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:17,273 [INFO] Code G515906 page 37: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:25,305 [INFO] Code G515906 page 38: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:33,302 [INFO] Code G515906 page 39: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:41,326 [INFO] Code G515906 page 40: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:49,356 [INFO] Code G515906 page 41: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:12:57,376 [INFO] Code G515906 page 42: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:05,397 [INFO] Code G515906 page 43: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:13,494 [INFO] Code G515906 page 44: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:21,522 [INFO] Code G515906 page 45: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:29,544 [INFO] Code G515906 page 46: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:37,550 [INFO] Code G515906 page 47: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:45,665 [INFO] Code G515906 page 48: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:13:53,674 [INFO] Code G515906 page 49: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:14:01,719 [INFO] Code G515906 page 50: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:14:09,732 [INFO] Code G515906 page 51: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:14:09,732 [INFO] Page content repeated for code G515906; stopping pagination.
+2026-01-30 11:14:09,732 [INFO] Processing code D242904
+2026-01-30 11:14:21,100 [INFO] Code D242904 page 1: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:14:29,300 [INFO] Code D242904 page 2: html_rows=10 dom_rows=10 grid_rows=10
+2026-01-30 11:14:29,300 [INFO] Page content repeated for code D242904; stopping pagination.
+2026-01-30 11:14:29,482 [INFO] Saved 1754 rows to D:\Data-Collector\raw\dubai_chamber\dubai_chamber_20260130_064757.csv

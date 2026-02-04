@@ -337,6 +337,7 @@ def main():
             wait_for_grid_data(page, timeout_ms=25000)
 
             page_number = 1
+            seen_page_keys = set()
             while True:
                 page.wait_for_timeout(1000)
                 save_html(html_dir, code, page_number, page.content())
@@ -355,6 +356,23 @@ def main():
                     len(dom_rows),
                     len(grid_rows),
                 )
+
+                # Detect repeated pages to avoid infinite loops.
+                page_key = None
+                if html_rows:
+                    first_row = html_rows[0] if html_rows else []
+                    page_key = f"{len(html_rows)}|{first_row}"
+                elif dom_rows:
+                    first_row = dom_rows[0] if dom_rows else []
+                    page_key = f"{len(dom_rows)}|{first_row}"
+                elif grid_rows:
+                    first_row = grid_rows[0] if grid_rows else {}
+                    page_key = f"{len(grid_rows)}|{first_row}"
+                if page_key and page_key in seen_page_keys:
+                    logging.info("Page content repeated for code %s; stopping pagination.", code)
+                    break
+                if page_key:
+                    seen_page_keys.add(page_key)
 
                 if html_rows:
                     rows_data = [(cells, None, {}) for cells in html_rows]
@@ -419,6 +437,7 @@ def main():
                         except Exception:
                             page.wait_for_timeout(1500)
                         page.wait_for_timeout(1000)
+                        page_number += 1
                     except Exception:
                         break
                 else:

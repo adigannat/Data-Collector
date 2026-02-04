@@ -1,0 +1,701 @@
+<!DOCTYPE html><html xmlns="https://www.w3.org/1999/xhtml" class=""><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <title>Search Business Activities</title>
+
+
+
+
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="../../ui/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/ltr.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout_dashboard.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/dashboard_ltr.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/FontAwesome/css/font-awesome.min.css">
+    <!-- scripts -->
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-DSJE2DF5JJ&amp;cx=c&amp;_slc=1"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/N67nZn4AqZkNcbeMu4prBgzg/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-8HATTPUsU/SjrV9KR44/tgBG8Czia5FPTCnvn3iAGBsMsUqgy9L0h45QhvFE9aql"></script><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/N67nZn4AqZkNcbeMu4prBgzg/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-8HATTPUsU/SjrV9KR44/tgBG8Czia5FPTCnvn3iAGBsMsUqgy9L0h45QhvFE9aql"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../../ui/js/common.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript">
+        /* function to show the validation */
+        function show(HasErrorOccured) {
+            if (HasErrorOccured == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+    </script> 
+    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="../../ClientScript/NewWindow.js "></script>
+    <script src="../../ClientScript/appinsights.js"></script>
+
+<title>
+	
+        DED - Search Activity
+</title>
+    <style type="text/css">
+			.divInspRep { PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px; HEIGHT: 500px }
+			.Validation { DISPLAY: none }
+			
+				.SectionFieldset,.SectionFieldset LEGEND { FONT-WEIGHT: bold; TEXT-TRANSFORM: capitalize; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center }				
+						
+		</style>
+    <script type="text/javascript">
+
+        function fnValidate() {
+            var eControl;
+            var aControl;
+
+            this.Init = function getControl() {
+                if (document.getElementById) {
+                    eControl = document.getElementById("DEDTBActivitDescr_E");
+                    aControl = document.getElementById("DEDActvityDescr_A");
+                    return true;
+                }
+                else if (document.all) {
+                    eControl = document.all['DEDTBActivitDescr_E'];
+                    aControl = document.all['DEDActvityDescr_A'];
+                    return true;
+                }
+                else if (document.layers) {
+                    eControl = document.layers['DEDTBActivitDescr_E'];
+                    aControl = document.layers['DEDActvityDescr_A'];
+                    return true;
+                }
+                else {
+                    return false;
+                }
+
+            }
+
+            this.Validate = function FormValidation() {
+
+                if (eControl) {
+                    if (eControl.value != '' && eControl.value.replace(/\s+$/, "").replace(/^\s+/, "").length >= 3)
+                        return true;
+                    else
+                        return false;
+                }
+                else if (aControl) {
+                    if (aControl.value != '' && aControl.value.replace(/\s+$/, "").replace(/^\s+/, "").length >= 3)
+                        return true;
+                    else
+                        return false;
+                }
+            }
+
+        }
+
+        function RequiredField(source, arguments) {
+            if (frm.Validate())
+                arguments.IsValid = true;
+            else {
+                show(true);
+                arguments.IsValid = false;
+            }
+        }
+
+        function show(HasErrorOccured) {
+            if (HasErrorOccured == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+					
+		var ActivitDescr_A = "ActivitDescr_A";
+        var ActivitDescr_E = "ActivitDescr_E";		
+    </script>   
+    <script type="text/javascript">
+        function STB(ActivityCode) {
+            
+            NewWindow2('ActvSrchPopup.aspx?actv_CD=' + ActivityCode + '&srp=-1&sfn=-1&ifn=-1&pn=173956&pn2=-1' ,'DEDWINActvSrchPopup', '400', '300', 'yes');
+        }
+    </script>
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"true","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-3625a564-0003-46fc-87d4-6d68c8768eb8","rua.cook":"true","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="XFTDD-5LVBC-U48D7-D3YPM-YNSWH",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"XFTDD-5LVBC-U48D7-D3YPM-YNSWH";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="cookiepresent",a="eaaqr6a3hem4cjqacqlqabiaabuxy2up-f-bc4346e07-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"1430184","ak.ai":parseInt("877808",10),"ak.ol":"0","ak.cr":7,"ak.ipv":6,"ak.proto":"h2","ak.rid":"309779cf","ak.r":32369,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"2001:8f8:1b39:19c1::","ak.cport":52650,"ak.gh":"2.20.249.72","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1769761423","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==czOHZHSZVOtxNTrRtrc/loR09kglGageNP56Bewg2hmsk1vSJsFMBfqWqUpH+/cUzMxAxEVD0O5g7pwIFuv/MDFsBwqWvXwh2bjXY7dHCflNlEmAai7uK1IUWYg4M+aJhdysRcuYmrEVAOBThNd2bDtKJJ6y4ZxWlXfVCiGJH8ObKNBqrCZTbkGtCIBTAYfsyTEJgR2jsQpe81+CNn68GPM76OAYkfYvqHb6CsW7qbRZwINH/04HqBysGqRzblUEEhfch3HjiJ0NgYw0bk+i48/Rh4/L2tSgUvJLa8GiXe97GqpSNzj8zKzNJqp0eQHYYJpBczWYCMv6pQvn4vIIXQN1pbNcwEYe0+ntyLhU39vO5DxEeZwIziTJzcwN+3nSs0EDZ8AwxT5YWN7ZeiSNf66F5faBaS/XJkdsxu7w4+Q=","ak.pv":"13","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><link href="https://s.go-mpulse.net/boomerang/XFTDD-5LVBC-U48D7-D3YPM-YNSWH" rel="preload" as="script"><script src="https://js.monitor.azure.com/scripts/b/ai.2.min.js" crossorigin="anonymous"></script><script id="boomr-scr-as" src="https://s.go-mpulse.net/boomerang/XFTDD-5LVBC-U48D7-D3YPM-YNSWH" async=""></script><meta http-equiv="origin-trial" content="A2uWz2bbyoykT6h7LZQlNUdwVAFfb3IL5LU+YR1qxtW5T1dCRKjJ5/h3zur1LmuLWk0B1kyAAwyCxJzDCzNxUAQAAAB6eyJvcmlnaW4iOiJodHRwczovL2FrYW1haS5jb206NDQzIiwiZmVhdHVyZSI6IkJhY2tGb3J3YXJkQ2FjaGVOb3RSZXN0b3JlZFJlYXNvbnMiLCJleHBpcnkiOjE2OTE1MzkxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+<body>
+    <form method="post" action="/Pages/Anon/ActvSrch.aspx?dedqs=fjWtzpxXhyHnpVhmdCXNuTAVOV2BQgXAKNbJLsz6gWbeXjyuvcfcrJQJnIccVa83z5ZtXz6KUWPmG3hoYok4gg5S7bMMz9lrFza32v1fPEs+mI0ENef7cZQFLr4ZWcpX4HIQegkY8jEkE8i4o+2/dw==" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNvmK2Ww3CuNFEamSnsFB09ZsUG2OCp3XXdG6Ysik2MX7nsi_w2&amp;t=638901680248157332" type="text/javascript"></script>
+
+
+<script language="javascript" src="../../ClientScript/common.js"></script>
+<link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet"><script language="javascript" src="../../ClientScript/NumberValidation.js"></script><script language="JavaScript"><!--
+function textCounter(field,maxlimit) { if (field.value.length > maxlimit) field.value=field.value.substring(0, maxlimit); try{textCounterOnPg();}catch(e){}; }
+function NumValidate(me) {if (!validvalue(me,'1234567890.',0)){ if(!validvalueText( me.value.substring(me.value.length-1,me.value.length),'1234567890.',0)) me.value=me.value.substring(0,me.value.length-1);}}
+function ResetNum(me) {if (!validvalue(me,'1234567890.',0)) me.value=''; }
+//--></script>
+<script type="text/javascript">var safePage = 0;var refererName;if (!window.opener && !document.referrer) {safePage = 0;} else if (document.referrer){ refererName = document.referrer.split('/')[2];if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } else if (window.opener){ refererName = window.opener.location.hostname;if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } if (safePage == 0) {window.location.replace('/Security/security.html?r=sec-qss');} </script>          <script type="text/javascript">      if (self === top) {          var antiClickjack = document.getElementById("antiClickjack");          antiClickjack.parentNode.removeChild(antiClickjack);      } else {          top.location = self.location;      }   </script> <link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet">
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakB1YgDElPeucUa4qIhUW4-ovfc9gHjOlRj1c98BYE0gFsRHJRIqA6Oxep1v-U9j8bPxubko1&amp;t=638901680248157332" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3B2BED90">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="211">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="x+UjQqOTz4HOsSG0pjCeSeM0LHp6afcMVPpMZvC6x+W7o5FV5Y82gyPwPnLJcLp428Va6ItzkbPLbnW/j+N+rJ6Wg+hJRv5n600zmtY8FnsC4XaD64PhqyzKFYj+sgZXb9136zJoWGwvu/Qa3VEQUIvHHUZ+4NE6DqF8c7AXaGHcAePtRsx5JzmT88YR0qBXsbNd53n4GGzhzb1uZSpMUM6rf+tJ12Zzb1htw6RCGS2P9kzB">
+</div>
+    
+
+<div class="g-recaptcha" id="g-recaptcha-main" data-sitekey="6LdiZVwUAAAAAEXyDKVqEaanCrkADvfbTcloegLA" data-size="invisible" data-callback="onCaptchaValidated"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-2gxxe21q4ghs" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdiZVwUAAAAAEXyDKVqEaanCrkADvfbTcloegLA&amp;co=aHR0cHM6Ly9lc2VydmljZXMuZHViYWlkZWQuZ292LmFlOjQ0Mw..&amp;hl=en&amp;v=N67nZn4AqZkNcbeMu4prBgzg&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=uyvaamtvrkv4"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response input_text" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+<input type="hidden" name="hfButtonRecaptchaID" id="hfButtonRecaptchaID" value="">
+
+<script>
+
+    var btnRecaptcha, btnRecaptchaID;
+
+    function onCaptchaValidated(response) {
+        //TODO: use for test!
+        //$('#g-recaptcha-response').val($('#g-recaptcha-response').val() + 'tampered!');
+
+        //TODO: check not undefined!
+        btnRecaptcha.removeAttr('disabled');
+        btnRecaptcha.click();
+        setTimeout(() => { btnRecaptcha.prop("disabled", true); }, 200);
+        
+        setTimeout(() => { resetCaptchaButton() }, 10000);
+    }
+
+    window.onCaptchaValidated = onCaptchaValidated;
+
+
+    function resetCaptchaButton() {
+
+ 	    if (!$("input.btn-recaptcha").is(":disabled"))
+ 		    return;
+
+ 	    $("input.btn-recaptcha").removeAttr('disabled');
+ 	    $("input.btn-recaptcha").removeAttr('style');
+ 	    $(".fa-spinner").remove();
+
+ 	    //In case of the user has stopped postback, there may be a duplicate captcha! so reset it in form update!
+ 	    grecaptcha.reset();
+     }
+
+    $(document).ready(function () {
+
+        $(document).on('change', 'form :input', function (e) {
+           resetCaptchaButton();
+        });
+
+        //Use 'on' to attach the event handler also in UpdatePanel
+        $(document).on('click', 'input.btn-recaptcha', function (e) {
+            btnRecaptchaID = this.id;
+            $('#hfButtonRecaptchaID').val(this.id);
+            btnRecaptcha = $('#' + btnRecaptchaID);
+
+            //in UpdatePanel $('#g-recaptcha-response').val(); null BUT grecaptcha.getResponse(); not null
+            var captchaResponse = grecaptcha.getResponse();
+
+            //TOOD: check also in callback
+            if ((typeof Page_IsValid == 'undefined' || Page_IsValid) && (typeof captchaResponse == 'undefined' || captchaResponse == '')) {
+                e.preventDefault();
+                $(this).prop("disabled", true);
+                //Use #000 instead off #fff to make buttons inside Guest login looks good!
+                $(this).attr("style", "transition: all 0.5s ease; background-blend-mode: luminosity; background-color: #000");
+
+                //Show only spinner loader for DEDButtons with class btn-3! as it's not displayed well in login buttons in Guest tab!
+                //Guest tab is inisde an UpdatePanel and it has a spinner already so remove it!
+                if ($(this).hasClass('btn-3')) {
+                $(this).parent().prepend("<i class='fa fa-spinner fa-spin' style='transition: all 0.5s ease;font-size: 14px;margin: 8px;position: absolute;'></i>");
+                }
+
+                grecaptcha.execute();
+            }
+        });
+    });
+
+
+    //Required in Printing report page! to stop if button is clicked and page is already posted! to post only one time
+    function IsPostBack() {
+        var ret = 'True' == 'True';
+        return ret;
+    }
+
+    //Used to fire not interactive actions like printing reports!
+    function executeGREcaptchaV2() {
+        $(document).ready(function () {
+            grecaptcha.ready(function () {
+                if (!IsPostBack()) {
+                    $('input.btn-recaptcha').click();
+                }
+            });
+        });
+    }
+
+
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script type="text/javascript">
+
+    //Should execute the below code only if the page has an UpdatePanel
+    if (typeof (Sys) !== 'undefined') {
+
+        //On UpdatePanel Refresh
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        if (prm != null) {
+
+
+            prm.add_endRequest(function (sender, e) {
+                if (sender._postBackSettings.panelsToUpdate != null) {
+                    grecaptcha.ready(function () { grecaptcha.render('g-recaptcha-main', { 'callback': onCaptchaValidated}); });
+                }
+            });
+        };
+    }
+
+</script>
+
+    <!-- Header and left menu -->
+    
+<!-- pgLTWizTOP start -->
+
+    <script type="text/javascript">
+        $(window).on('load', function () { $("#formspinner").fadeOut("slow"); });      
+    </script>
+    <div id="formspinner" style="display: none;"></div>
+
+<script type="text/javascript">
+
+
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+        try {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+        catch (e2) {
+        }
+    }
+
+
+
+
+</script>
+<div class="hidden">
+    <input id="IsDirty" type="hidden" name="IsDirty">
+</div>
+<div class="wrapper">
+    <div class="wrapper-cont">
+        <div class="header">
+            <div style="display: none;">
+                <div class="upperBar">
+                    <div>
+                        Welcome guest.</div>
+                    <div class="lang">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="logos">
+                 <img src="../../ui/images/logo_dubai.png" class="dubai-logo" alt="Dubai gov logo">
+                 <img src="../../ui/images/logo_ded.png" class="economy-logo" alt="DET logo">
+            </div>
+            <div>
+                <a href="../../Pages/Anon/GstHme.aspx?dedqs=miVVgMLthyo=" class="home-btn">
+                    <div class="home-img">
+                        <img src="../../ui/images/web-page-home.png">
+                    </div>
+                </a>
+                <div class="profileBar">
+                    <div class="LeftText" style="display: none">
+                        Search Business Activities
+                    </div>
+                    <div class="Profile">
+                        <div class="login-btn">
+                            
+                            <div id="PgLtWizTopForUserMenu1_DivLoginButton" class="login-popup-btn">
+                                <a href="#" data-modal-id="popup1" class="js-open-modal" style="text-decoration: none;">
+                                    <label>
+                                        <strong>
+                                            Login</strong>&nbsp; <i class="fa fa-user-o fa-2 float-right">
+                                        </i>&nbsp;</label></a>
+                            </div>
+                            <a class="lang_text" href="/Pages/Anon/ActvSrch.aspx?1=1&amp;PID=10104&amp;sname=Search_Business_Activities&amp;srp=-1&amp;sfn=-1&amp;ifn=-1&amp;pn=173956&amp;pn2=-1&amp;wasQSEncrypted=N&amp;LID=2">
+                                <div class="lang-btn">
+                                    <label>
+                                        العربي</label>
+                                </div>
+                            </a>
+                            <div class="profile-status">
+                                
+                            </div>
+                        </div>
+                        <div style="display: none;">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help-icon">
+                <a href="../../Help/Online_Help_E/DED_E-Services.htm" class="help-icon-link" target="_blank"></a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function MM_showHideLayers() { //v9.0
+                var i, p, v, obj, args = MM_showHideLayers.arguments;
+                for (i = 0; i < (args.length - 2); i += 3)
+                    with (document) if (getElementById && ((obj = getElementById(args[i])) != null)) {
+                        v = args[i + 2];
+                        if (obj.style) { obj = obj.style; v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v; }
+                        obj.visibility = v;
+                    }
+            }
+        </script>
+        
+        <div class="content">
+            <!-- delete html generated below-->
+
+    <div class="ActiveSrch">
+        <!-- Header and left menu -->
+        <div class="no-panel">
+            <div id="divEMsg" class="Validation MsgValiddation CaptchaFix">
+                <table width="100%" border="0"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td><fieldset class="ErrorFieldset"><legend>Error Messages</legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td>
+                
+                <div id="vsError" class="ErrorValidation ActivVaildFix" style="width:100%;display:none;">
+
+</div>
+                </td></tr></tbody></table> </fieldset></td></tr></tbody></table>
+            </div>
+        </div>
+
+
+        <!-- Opening FSTPrsnRep  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Criteria</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <table border="0" cellpadding="10" width="100%">
+            <tbody><tr>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" class="ded-control-input"><tbody><tr><td class="ded-td-input-label"><label for="DEDTBActivitDescr_E" class="boldText">Activity </label></td><td class="ded-td-input-text"><input name="DEDTBActivitDescr_E" type="text" value="oil" maxlength="100" id="DEDTBActivitDescr_E" tabindex="2" class="ded-input-text input_text" onchange="document.getElementById('IsDirty').value='true';" style="width:300px;margin:-1px;"></td><td class="ded-td-input-validation"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="visibility:hidden;display:none;color:red" id="lblSplCharDEDTBActivitDescr_E" nowrap="">One or more character(s) you are trying to enter is not allowed.</td></tr></tbody></table>
+                </td>
+            </tr>            
+            <tr>
+                <td>
+                    <div class="footer-btns footer-btns-inside">
+                        <div class="left">
+                            <table class="btn-3 btn-recaptcha" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img width="1px" height="1px" src="../../images/btn_tl.gif"></td><td background="../../images/btn_t.gif"></td><td><img src="../../images/btn_tr.gif" width="1" height="1" alt=""></td></tr><tr><td background="../../images/btn_ml.gif"><img src="../../images/btn_ml.gif" width="1" height="12" alt=""></td><td align="center"><input type="submit" name="DEDBtnSrch" value="Search" onclick="show(false);show(false);show(false);show(false);show(false);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;DEDBtnSrch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="DEDBtnSrch" tabindex="4" class="btn-3 btn-recaptcha"></td><td background="../../images/btn_mr.gif"><img width="1px" height="12px" src="../../images/btn_mr.gif" alt=""></td></tr><tr><td><img src="../../images/btn_bl.gif" width="1" height="1" alt=""></td><td background="../../images/btn_bm.gif"></td><td><img src="../../images/btn_br.gif" width="1" height="1" alt=""></td></tr></tbody></table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody></table>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep  -->
+       
+        
+        <div class="Validation" align="right">
+            <input name="txtValidation" type="text" value="Make Validation" id="txtValidation" class="input_text"><span id="cvRequiredValidation" style="display:none;">Please enter at least 3 letters/numbers related to the activity you are searching for</span>
+            
+        </div>
+       
+        
+        <!-- Opening FSTPrsnRep2  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Results</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <hr id="hrActivities" class="hidden" width="100%">
+        <div class="clear-10">
+        </div>
+        
+        <div class="grid">
+            <table cellspacing="0" id="dgActivities" style="width:98%;border-collapse:collapse;">
+	<tbody><tr class="DataGridTableTh">
+		<th scope="col" style="font-weight:bold;">Activity Code</th><th scope="col" style="font-weight:bold;">Activity </th><th scope="col" style="font-weight:bold;">Activity Group</th><th scope="col" style="font-weight:bold;">License Type</th>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=281108&amp;uuid-hash=y6qiQtvnYQWORfcuzRq2A" href="javascript:;">2824010</a>
+                        </td><td>Oil &amp; Gas Fields Equipment Manufacturing</td><td>Equipment and engines manufacturing</td><td>Industrial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=514103&amp;uuid-hash=y6qiQtvnYQJvrO9W0z1aQ" href="javascript:;">4661003</a>
+                        </td><td>Refined Oil Products Trading</td><td>Fuel and petroleum products trading </td><td>Commercial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=372007&amp;uuid-hash=y6qiQtvnYR1grax7aWYQ" href="javascript:;">3821004</a>
+                        </td><td>Cooking Oil Mobile Micro Filtration</td><td>CDA activities</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=372007&amp;uuid-hash=y6qiQtvnYR1grax7aWYQ" href="javascript:;">3821004</a>
+                        </td><td>Cooking Oil Mobile Micro Filtration</td><td>Waste collection and treatment</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=281116&amp;uuid-hash=y6qiQtvnYTui3oV7FmJUw" href="javascript:;">2599130</a>
+                        </td><td>Oilfield Drilling Equipment &amp; Components Manufacturing</td><td>Equipment and engines manufacturing</td><td>Industrial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=742216&amp;uuid-hash=y6qiQtvnYTUXkJxyCjlgw" href="javascript:;">7120018</a>
+                        </td><td>Oilfield High Pressure Equipment Testing</td><td>CDA activities</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=742216&amp;uuid-hash=y6qiQtvnYTUXkJxyCjlgw" href="javascript:;">7120018</a>
+                        </td><td>Oilfield High Pressure Equipment Testing</td><td>Laboratories</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=514946&amp;uuid-hash=y6qiQtvnYQlyY644QVXNQ" href="javascript:;">4669113</a>
+                        </td><td>Used Cooking Oils Trading</td><td>Waste trading </td><td>Commercial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=514109&amp;uuid-hash=y6qiQtvnYRx51r8tNN2DQ" href="javascript:;">4661101</a>
+                        </td><td>Offshore Crude Oil Trading</td><td>Fuel and petroleum products trading </td><td>Commercial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=514110&amp;uuid-hash=y6qiQtvnYSNOlgezubRTA" href="javascript:;">4661102</a>
+                        </td><td>Offshore Refined Oil Product Trading</td><td>Fuel and petroleum products trading </td><td>Commercial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=112006&amp;uuid-hash=y6qiQtvnYTsrQhp4uriYA" href="javascript:;">0910101</a>
+                        </td><td>Offshore Oil &amp; Natural Gas Wells Equipment Repairing</td><td>CDA activities</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=112006&amp;uuid-hash=y6qiQtvnYTsrQhp4uriYA" href="javascript:;">0910101</a>
+                        </td><td>Offshore Oil &amp; Natural Gas Wells Equipment Repairing</td><td>Petroleum and metal extraction</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=112007&amp;uuid-hash=y6qiQtvnYSrGEQnTFu2CA" href="javascript:;">0910102</a>
+                        </td><td>Offshore Well Drilling &amp; Oil &amp; Natural Gas Fields Development</td><td>Petroleum and metal extraction</td><td>Industrial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=515906&amp;uuid-hash=y6qiQtvnYR04iuLF6qQw" href="javascript:;">4773704</a>
+                        </td><td>Oilfield &amp; Natural Gas Equipment &amp; Spare Parts Trading</td><td>Mechanical &amp; engineering equipment trading </td><td>Commercial</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=112005&amp;uuid-hash=y6qiQtvnYQdo4leH47yUA" href="javascript:;">0910018</a>
+                        </td><td>Onshore &amp; Offshore Oil &amp; Gas Fields Services</td><td>CDA activities</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=112005&amp;uuid-hash=y6qiQtvnYQdo4leH47yUA" href="javascript:;">0910018</a>
+                        </td><td>Onshore &amp; Offshore Oil &amp; Gas Fields Services</td><td>Petroleum and metal extraction</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=502008&amp;uuid-hash=y6qiQtvnYSKxnMTjYr8mg" href="javascript:;">4520010</a>
+                        </td><td>Auto Oil Change</td><td>CDA activities</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=502008&amp;uuid-hash=y6qiQtvnYSKxnMTjYr8mg" href="javascript:;">4520010</a>
+                        </td><td>Auto Oil Change</td><td>Motor vehicle repairing</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=111003&amp;uuid-hash=y6qiQtvnYQnIpuINdFYHw" href="javascript:;">0910019</a>
+                        </td><td>Oil &amp; Natural Gas Development</td><td>CDA activities</td><td>Professional</td>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                            <a class="a-printReport" pageurl="/Pages/Anon/ActvSrchPopup.aspx?actv_cd=111003&amp;uuid-hash=y6qiQtvnYQnIpuINdFYHw" href="javascript:;">0910019</a>
+                        </td><td>Oil &amp; Natural Gas Development</td><td>Petroleum and metal extraction</td><td>Professional</td>
+	</tr>
+</tbody></table>
+            <div class="pagination">
+                <div class="paging-numbers">Page<span class="current"> 4</span>  of  <span class="total">5</span></div><div class="paging-arrows"><a class="last" href="javascript:__doPostBack('ctl13','')">Last</a><a class="next" href="javascript:__doPostBack('ctl12','')">Next</a><a class="prev" href="javascript:__doPostBack('ctl11','')">Previous</a><a class="first" href="javascript:__doPostBack('ctl10','')">First</a></div> </div> 
+            </div>
+        
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function () {
+                $("a[rel^='prettyPhoto']").each(function (index) {
+                    $(this).prettyPhoto({ theme: 'facebook' });
+                });
+            });
+        </script>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep2  -->
+        <div class="divInspRep hidden">
+            <iframe id="IFDivInspRep" bottommargin="0" marginwidth="0" frameborder="no" width="50%" scrolling="no" height="100%" marginheight="0" leftmargin="0" rightmargin="0" topmargin="0"></iframe>
+        </div>
+        <!-- Footer -->
+    </div>
+    
+<!-- Delete any html generated above -->
+
+<!-- Google analytics-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1205005-20', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Scripts -->
+<script type="text/javascript">
+
+    //Hide status bar msg II script- by javascriptkit.com
+    //Visit JavaScript Kit (http://javascriptkit.com) for script
+    //Credit must stay intact for use
+
+    function hidestatus() {
+        window.status = '';
+        return true
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT)
+    }
+    document.onmouseover = hidestatus;
+    document.onmouseout = hidestatus;
+</script>
+<script lang="JavaScript">
+    try {
+        MM_showHideLayers('ins', '', 'hide');
+    }
+    catch (e) {
+    }
+</script>
+<div class="clear">
+</div>
+</div> </div> </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.css?v=2.1.5" media="screen">
+<script type="text/javascript">
+
+    // get the page name
+    var pageName = (function () {
+        var a = window.location.href,
+        b = a.lastIndexOf("/");
+        return a.substr(b + 1);
+    } ());
+
+    function autoClick() {
+        if (pageName == 'TransactionIndex.aspx') {
+            document.getElementById('onload').click();
+        }
+    }
+
+</script>
+<style type="text/css">
+    .fancybox-custom .fancybox-skin
+    {
+        box-shadow: 0 0 50px #222;
+    }
+    body
+    {
+        /*max-width: 700px;*/
+        margin: 0 auto;
+    }
+    
+    #foo
+    {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        bottom: 0px;
+        left: 15px;
+        background-color: #2EA07E;
+        padding: 10px;
+    }
+</style>
+ 
+    <!-- Footer -->
+    <script type="text/javascript">
+        var frm = new fnValidate();
+        frm.Init();
+    </script>
+    <input type="hidden" value="0" name="Flag">
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("vsError"));
+var Page_Validators =  new Array(document.getElementById("cvRequiredValidation"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var vsError = document.all ? document.all["vsError"] : document.getElementById("vsError");
+vsError.headertext = " ";
+vsError.displaymode = "List";
+var cvRequiredValidation = document.all ? document.all["cvRequiredValidation"] : document.getElementById("cvRequiredValidation");
+cvRequiredValidation.controltovalidate = "txtValidation";
+cvRequiredValidation.errormessage = "Please enter at least 3 letters/numbers related to the activity you are searching for";
+cvRequiredValidation.display = "Dynamic";
+cvRequiredValidation.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvRequiredValidation.clientvalidationfunction = "RequiredField";
+//]]>
+</script>
+
+<script language="JavaScript"> ;var CrystalReportPage='../../Pages/common/DeliverPDF.aspx?n=ie&L=_E&PSU=173956';  ;var CrystalReportPageInternal='../../Pages/common/DeliverPDF.aspx?n=ie&L=_E&PSU=173956'; </script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+//]]>
+</script>
+</form>
+    
+
+
+
+<div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div><div style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: fixed; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255);"><iframe title="recaptcha challenge expires in two minutes" name="c-2gxxe21q4ghs" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=N67nZn4AqZkNcbeMu4prBgzg&amp;k=6LdiZVwUAAAAAEXyDKVqEaanCrkADvfbTcloegLA&amp;bft=0dAFcWeA6w4BaB-dSQROntjtgort7vN_BKOZCg6vd8ziL2lrU6PE5bNorN-aL3CHhqUrI9tlzmtS9YRXsp2AToU3THEMD6vr0tmQ" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

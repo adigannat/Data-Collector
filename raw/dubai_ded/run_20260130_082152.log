@@ -1,0 +1,43 @@
+2026-01-30 12:21:53,094 [INFO] Searching keyword oil
+2026-01-30 12:22:30,575 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:23:10,529 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:23:38,521 [INFO] Keyword oil page 1: rows=20
+2026-01-30 12:23:41,076 [INFO] Keyword oil page 2: rows=20
+2026-01-30 12:23:43,625 [INFO] Keyword oil page 3: rows=20
+2026-01-30 12:23:46,172 [INFO] Keyword oil page 4: rows=20
+2026-01-30 12:23:48,737 [INFO] Keyword oil page 5: rows=2
+2026-01-30 12:23:48,747 [INFO] Keyword oil total rows captured: 82
+2026-01-30 12:23:48,747 [INFO] Searching keyword petroleum
+2026-01-30 12:24:25,226 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:24:34,835 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:24:38,876 [INFO] Keyword petroleum page 1: rows=9
+2026-01-30 12:24:38,888 [INFO] Keyword petroleum total rows captured: 9
+2026-01-30 12:24:38,892 [INFO] Searching keyword petro
+2026-01-30 12:25:15,289 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:25:20,361 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:25:32,516 [INFO] Keyword petro page 1: rows=16
+2026-01-30 12:25:32,537 [INFO] Keyword petro total rows captured: 16
+2026-01-30 12:25:32,537 [INFO] Searching keyword gas
+2026-01-30 12:26:08,658 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:26:14,099 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:26:16,964 [INFO] Keyword gas page 1: rows=20
+2026-01-30 12:26:19,523 [INFO] Keyword gas page 2: rows=20
+2026-01-30 12:26:22,079 [INFO] Keyword gas page 3: rows=20
+2026-01-30 12:26:24,642 [INFO] Keyword gas page 4: rows=3
+2026-01-30 12:26:24,652 [INFO] Keyword gas total rows captured: 63
+2026-01-30 12:26:24,652 [INFO] Searching keyword drilling
+2026-01-30 12:27:01,222 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:27:11,769 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:27:19,761 [INFO] Keyword drilling page 1: rows=10
+2026-01-30 12:27:19,765 [INFO] Keyword drilling total rows captured: 10
+2026-01-30 12:27:19,765 [INFO] Searching keyword refinery
+2026-01-30 12:27:55,931 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:28:01,029 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:28:20,770 [INFO] Keyword refinery page 1: rows=1
+2026-01-30 12:28:20,782 [INFO] Keyword refinery total rows captured: 1
+2026-01-30 12:28:20,782 [INFO] Searching keyword oilfield
+2026-01-30 12:28:56,946 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:29:01,418 [INFO] Captcha detected. Please complete it in the browser, then press Enter here.
+2026-01-30 12:29:04,574 [INFO] Keyword oilfield page 1: rows=9
+2026-01-30 12:29:04,591 [INFO] Keyword oilfield total rows captured: 9
+2026-01-30 12:29:04,772 [INFO] Saved 190 rows to D:\Data-Collector\raw\dubai_ded\dubai_ded_20260130_082152.csv

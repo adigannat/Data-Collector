@@ -1,0 +1,29 @@
+2026-01-30 11:38:27,077 [INFO] Searching keyword oil
+2026-01-30 11:38:30,263 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:38:30,272 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:40:43,136 [INFO] Page content repeated for keyword oil; stopping pagination.
+2026-01-30 11:40:43,136 [INFO] Searching keyword petroleum
+2026-01-30 11:40:45,724 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:40:45,735 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:41:17,173 [INFO] Page content repeated for keyword petroleum; stopping pagination.
+2026-01-30 11:41:17,173 [INFO] Searching keyword petro
+2026-01-30 11:41:18,766 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:41:18,776 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:42:20,230 [INFO] Page content repeated for keyword petro; stopping pagination.
+2026-01-30 11:42:20,230 [INFO] Searching keyword gas
+2026-01-30 11:42:21,871 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:42:21,879 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:44:00,350 [INFO] Page content repeated for keyword gas; stopping pagination.
+2026-01-30 11:44:00,358 [INFO] Searching keyword drilling
+2026-01-30 11:44:02,331 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:44:02,342 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:45:15,046 [INFO] Page content repeated for keyword drilling; stopping pagination.
+2026-01-30 11:45:15,046 [INFO] Searching keyword refinery
+2026-01-30 11:45:16,639 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:45:16,647 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:45:34,415 [INFO] Page content repeated for keyword refinery; stopping pagination.
+2026-01-30 11:45:34,415 [INFO] Searching keyword oilfield
+2026-01-30 11:45:36,000 [INFO] Using Trade Name (English) field by label.
+2026-01-30 11:45:36,010 [INFO] Complete reCAPTCHA if present, then press Enter in this console...
+2026-01-30 11:45:46,231 [INFO] Page content repeated for keyword oilfield; stopping pagination.
+2026-01-30 11:45:46,411 [INFO] Saved 742 rows to D:\Data-Collector\raw\sharjah_sedd\sharjah_sedd_20260130_073826.csv
